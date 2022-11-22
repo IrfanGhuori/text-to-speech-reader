@@ -1,4 +1,4 @@
-### Content Reader Language translator
+### Text to speech and language translator
 
 <a href="https://www.youtube.com/watch?v=yX2YHVwj8_o"> Watch Demo </a> 
 
