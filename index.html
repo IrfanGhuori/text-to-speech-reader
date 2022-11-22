@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./app/node_modules/bootstrap-extra/css/bootstrap.css">
+    <script src="./app/src/js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="./app/src/css/text-to-speech.css">
+    <title>Powerful Text to Speech</title>
+</head>
+<body>
+
+
+
+
+    <div class="container">
+
+
+
+            <article>
+            <h1>Select over the text below</h1> 
+            <h4>Reader only supports English.</h4>
+            <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a
+                 document written in a markup language such as HTML. CSS is a cornerstone technology 
+                 of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the 
+                 separation of presentation and content, including layout, colors, and fonts. 
+                 This separation can improve content accessibility, provide more flexibility
+                  and control in the specification of presentation characteristics. </p>
+            </article>
+            <template><span id="control"><b id="tweet"></b><b id="whatsapp"></b><b id="searchit"></b><b id="plays"></b><b id="settings"></b></span></template>
+        
+     
+<!-- setting -->
+<div class="modal fade" id="play-setting" tabindex="-1" role="dialog"
+aria-labelledby="play-settingLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-sm" role="document">
+<div class="modal-content col-md-10">
+<div class="modal-header">
+<h5 class="modal-title" id="play-settingLabel"><img
+class="img-logo"
+src="./app/src/img/voicelogo.png" alt="">
+</div>
+<div class="modal-body">
+<!-- Setting Panel  -->
+<div class="row">
+<!--  Volume / -->
+<div class="col-md-2"> Volume </div>
+<div class="col-md-10"><input type="range" id="volumeSlider"
+min="0" max="1" value="0.5"
+step="0.1"></div>
+<!--  Volume \ -->
+</div>
+<div class="row">
+<!--  Rate / -->
+<div class="col-md-2"> Rate </div>
+<div class="col-md-10"><input type="range" id="rateSlider"
+min="0" max="1" value="0.6"
+step="0.1"></div>
+<!--  Rate \ -->
+</div>
+<div class="row">
+<!--  Pitch / -->
+<div class="col-md-2"> Pitch </div>
+<div class="col-md-10"><input type="range" id="pitchSlider"
+min="0" max="2" value="0.5"
+step="0.1"></div>
+<!--  Pitch \ -->
+<div class="row justify-content-center">
+<!--  Pitch / -->
+<div class="input-group col-md-11">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">Voice</span>
+</div>
+<select class="form-control" id="voiceOptions"></select>
+</div>
+<div class="input-group col-md-11 mt-2">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">Languages</span>
+</div>
+<div class="form-control" id="google_translate_element"></div>
+</div>
+<!--  Pitch \ -->
+</div></div><div class="modal-footer justify-content-center">
+<div class="btn-group">
+<button type="button" class="btn btn-dark ripple-effect"
+data-dismiss="modal">Save
+Changes</button>
+</div></div></div>
+<div>
+<div></div>
+
+<!-- setting -->
+
+
+
+
+        <script src="./app/src/js/contentscript.js"></script>
+        <script src="./app/node_modules/bootstrap-extra/js/bootstrap.js"></script>
+</body>
+</html>
